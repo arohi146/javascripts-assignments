@@ -22,3 +22,29 @@ function arithmeticoperators()
 	var k = i ++; // post - i n c r e m e n t : k e q u a l s 2; i e q u a l s 3
 	console.log(k+k);
 }
+function numberandstrings()
+{
+	var foo = 1;
+	var bar = '2';
+	console.log( foo + bar ); // 12. uh oh
+	var foo = 1;
+	var bar = '2';
+		// coerce the string to a number
+	console.log( foo + Number( bar ));
+}
+function logicaloperators()
+{
+	var foo = 1;
+	var bar = 0;
+	var baz = 2;
+	foo || bar ; // returns 1 , which is true	
+	bar || foo ; // returns 1 , which is true
+	foo && bar ; // returns 0 , which is false
+	foo && baz ; // returns 2 , which is true
+	baz && foo ; // returns 1 , which is true
+	console.log(foo+bar);
+}
+function comparisonoperators()
+{
+	
+}
