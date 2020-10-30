@@ -1,12 +1,12 @@
 
 
 
-function ExecFunc()
+function syntaxoverview()
 {
 	//Your Code Goes Here
-	alert("Hi");
+	var foo = 'hello world';
 	
-	console.error("error is there");
+	console.log("comment is there");
 	
 	
 	
