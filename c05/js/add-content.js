@@ -1,13 +1,14 @@
 
 
 
-function ExecFunc()
+function arrays()
 {
-	//Your Code Goes Here
-	alert("Hi");
+	var myArray = [ ' hello ' , ' world ' , ' foo ' , ' bar ' ];
+console.log ( myArray [3 ] ) ; // logs ' bar '
 	
-	console.error("error is there");
-	
-	
-	
+}
+function testsize()
+{
+	var myArray = [ ' hello ' , ' world ' ];
+console.log ( myArray.length ); // logs 2
 }
